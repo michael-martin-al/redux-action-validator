@@ -1,6 +1,6 @@
 # redux-action-validator
 
-Extensible class to validate Redux/Flux actions properties and ensure consistency across large projects
+Extensible class to validate Redux/Flux action properties and ensure consistency across large projects.
 
 ## Installation
 
@@ -49,10 +49,10 @@ Let's break it down.
 
 `MyAction1` is the name of the Redux/Flux action you want to create and validate.
 
-`MY_ACTION_1` is the internal string constant you want to associate with `MyAction1`. This will become `MyAction1.type`.
+`MY_ACTION_1` is the internal string constant you want to associate with `MyAction1`. This will become `MyAction1.type`. Remeber that these constants need to be unique throughout your entire Redux application namespace.
 
 
-`id`, `myList`, `mySample`, `myMap`, `myTest` are all properties the properties that you want to force each `MyAction1` instance to contain. These are mapped to type constants. `redux-action-validator` contains the following property type constants:
+`id`, `myList`, `mySample`, `myMap`, `myTest` are all properties that you want to force each `MyAction1` instance to contain. These are mapped to type constants. `redux-action-validator` contains the following property type constants:
 
 - ReduxAction.NUMBER
 - ReduxAction.ARRAY
