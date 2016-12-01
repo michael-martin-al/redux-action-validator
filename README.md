@@ -2,6 +2,9 @@
 
 Extensible class to validate Redux/Flux action properties and ensure consistency across large projects.
 
+## Tutorial Available on [AngularToReact.com](https://angulartoreact.com)
+[How to Assert that a Redux or Flux Action Contains the Expected Properties with the Appropriately Typed Values](https://angulartoreact.com/redux-action-validator-part-1/)
+
 ## Installation
 
 ```bash
