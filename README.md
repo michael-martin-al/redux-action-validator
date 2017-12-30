@@ -2,8 +2,7 @@
 
 Extensible class to validate Redux/Flux action properties and ensure consistency across large projects.
 
-## Tutorial Available on [AngularToReact.com](https://angulartoreact.com)
-[How to Assert that a Redux or Flux Action Contains the Expected Properties with the Appropriately Typed Values](https://angulartoreact.com/redux-action-validator-part-1/)
+## Tutorial Available here: [A Simple Guide to Validating Your Redux Action Properties and Types](https://medium.com/@micmart/a-simple-guide-to-validating-your-redux-action-properties-and-types-2cb749b12ab9)
 
 ## Installation
 
@@ -123,4 +122,4 @@ At any point in this process, if an invalid action comes through an exception wi
 If you ideas, suggestions or bug reports feel free to create an Issue or Pull Request on this repo.
 
 Thanks
-## Michael, [AngularToReact.com](https://angulartoreact.com)
+## [Michael](https://medium.com/@micmart)
